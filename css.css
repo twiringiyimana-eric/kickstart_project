@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans);
+ 
+/* Reset some default styles */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: white;
+}
+
+/* Section 1: Logo and Menu */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Section 2: Paragraph and Box */
+.content {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.paragraph {
+  flex: 1;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  
+}
+.box img{border-radius:1rem;}
+
+/* Section 3: Boxes */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  justify-content: center;
+  border-radius:10px;
+}
+li a:hover{color:#333;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+/* Section 4: Footer */
+footer {
+  background-color:#1F2937;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+a {text-decoration: none;}
+
+.boxes h1{text-align: center;}
+.content .boxs{
+    background-color:#6198f3;
+    height:auto;
+    width: 95%;
+    justify-content:center;
+    margin-left:2rem;
+}
+.boxes .box{
+
+margin-left: 2rem;
+border-radius: 10px;
+
+}
+.content .boxs p{text-align: left; margin-left: 2rem;}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  width: 100px;
+  height: 30px;
+  margin-top: 1rem;
+  border-radius:5px;
+  background:white;
+  margin-left:40rem;
+  
+}
+button a{
+  color:black;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: yellow;
+  background:#6198f3;
+  margin-left: 4rem;
+  border: 2px solid white;
+}
+.btn a{color:white;}
+button a:hover{background: goldenrod;}
+
+@media(max-width:1200px){
+
+  html{
+      font-size: 55%;
+  }
+  .content{
+      padding: 1rem 4rem;
+  }
+  .boxes .box img {
+    padding: 1rem 4rem;
+
+  }
+}
+
+@media (max-width:400px){
+ .boxes {
+      width:30px;
+    }
+  }
+        img a:hover{transform-box: stroke-box;}
+        h1 {color: white;}
+          .paragraph p{color:white}
+          .content p{color:black;}
+
+         
