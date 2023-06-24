@@ -45,39 +45,6 @@ nav ul li {
   margin: 0 20px;
 }
 
-/* header end */
-/* header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.logo img {
-  width: 100px;
-  height: 100px;
-  color: white;
-}
-
-  nav ul {
-    list-style: none;
-    align-items:end ;
-    
-  }
-  
-
-
- nav ul li {
-display: inline-block;
-margin-right: 4rem;
-width: 100px;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-} */
-
 .three {
   background-color: #e5e7eb;
   padding: 40px;
@@ -187,7 +154,7 @@ nav a {
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
-  border: 2px solid white;
+  background: #888;
 }
 
 
