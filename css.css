@@ -326,11 +326,12 @@ button a:hover{background: goldenrod;}
         border: 2px solid #3882f6;
         margin: 0 auto 5px;
         border-radius: 5px;
+        color:black;
       }
       
       .box p {
         font-size: 14px;
-        color: #888;
+        color:black;
       }
       .paragraph p{
         font-size: 36px;
