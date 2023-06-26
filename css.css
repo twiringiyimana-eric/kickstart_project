@@ -77,9 +77,9 @@ nav ul li {
   height: 100%;
   border: 2px solid #3882F6;
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
 } 
-.box img{border-radius:1rem;}
+
 /* section four */
 .section-four {
   background-color: #f8f8f8;
@@ -158,6 +158,11 @@ nav ul li {
   border-radius:3px;
 }
 
+.box-one img{
+object-fit:cover;
+height: 100%;
+width: 100%;
+}
 
 .box-left h2 {
   font-size: 24px;
